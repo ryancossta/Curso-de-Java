@@ -1,4 +1,4 @@
-package Secao1;
+package secao1;
 
 
 public class HelloWord {
