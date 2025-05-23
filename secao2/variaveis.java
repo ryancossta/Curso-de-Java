@@ -61,6 +61,57 @@ public class variaveis {
 
         System.out.println(fullName);
 
+
+        //Aula sobre CHAR 
+
+        /**
+         * Char é um tipo de dado que armazena um único caractere
+         * 
+         * O char pode armazenar qualquer caractere Unicode, incluindo letras, números 
+         * e símbolos
+         * 
+         * Ocupa 2 Bytes de memória, permite armazenar 65.536 caracteres diferentes
+         * 
+         * O Char aceita apenas aspas simples ( '' )
+         */
+
+        char letra = 'a';
+        System.out.println(letra);
+
+        char simbolo = '$';
+        System.out.println(simbolo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
