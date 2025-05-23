@@ -23,7 +23,7 @@ package secao2;
 public class variaveis {
     
     public static void main(String[] args) {
-        //O que são variáveis
+        // 1 - O que são variáveis
         //Tipo -> nome -> Atribuir um valor 
 
         String nome = "Ryan";
@@ -31,6 +31,18 @@ public class variaveis {
         System.out.println(nome); /* <---- Acessou a Variável String 
         e vai retornar "RYAN" no terminal */
 
+        // 2 - Atribuição de variável com outra 
+
+        String teste = "Teste";
+
+        String testando = teste;
+        System.out.println(testando);
+
+        long numeroGrande = 90000000000L;
+
+        //int numeroGrande2 = numeroGrande;
+
+        System.out.println(numeroGrande);
     }
 
 }
