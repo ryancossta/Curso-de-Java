@@ -43,6 +43,24 @@ public class variaveis {
         //int numeroGrande2 = numeroGrande;
 
         System.out.println(numeroGrande);
+
+
+        // AULA DE STRINGS
+
+        String firstName = "Ryan";
+        String lastName = "Alves";
+
+        System.out.println("Ryan Alves");
+
+        System.out.println( firstName + " " + lastName); /*COLOCANDO UMA STRING VAZIA E CONCATENANDO
+        PODEMOS COLOCAR ESPAÇOS ESNTRE AS PALAVRAS  */
+
+        System.out.println("O nome dele é: " + firstName);
+
+        String fullName = firstName + " " + lastName; // OUTRO MODE DE FAZER CONCATENAÇÃO
+
+        System.out.println(fullName);
+
     }
 
 }
