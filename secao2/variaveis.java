@@ -85,8 +85,34 @@ public class variaveis {
 
 
 
+        // Aula sobre Int
+
+        /**
+         * Int é um tipo de dado primitivo utilizado para armazenar números inteiros 
+         * 
+         * Tamanho fixo: Ocupa 4 Bytes de memória, permitindo armazenar valores positivos e negativos 
+         * 
+         * Ideal para operações aritméticas em loops;
+         * 
+         * 
+         */
+
+         int n = 43;
+
+         System.out.println(n);
+
+         System.out.println(n + 100);
+
+         System.out.println(n -6);
+
+         System.out.println(n * 9);
+
+         System.out.println(n / 3);
 
 
+         int soma = n + 200;
+
+         System.out.println(soma);
 
 
 
