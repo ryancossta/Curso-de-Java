@@ -140,10 +140,33 @@ public class variaveis {
         System.out.println(grandeNumber + 10);
 
 
+        // Aula sobre Double
+
+        /*
+         * É um tipo de dado primitivo usado para armazenar números de ponto
+         * flutuante(decimais) com dupla precisão
+         * 
+         * Ideal para operações matemáticas que requerem precisão, como cálculos científicos e financeiros 
+         * 
+         * Valores literais podem ser seguidos por d ou D, embora não sejam obrigatório
+         */
 
 
+        double preco = 19.99;
+        System.out.println(preco);
+
+        System.out.println(preco + 1000);
+
+        System.out.println(preco - 10);
+
+        double pi = 3.141_592_123;
+        System.out.println(pi);
+
+        double valorCom0 = 12.1D;
+        System.out.println(valorCom0);
 
 
+        
 
 
 
