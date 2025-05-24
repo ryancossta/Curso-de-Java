@@ -166,15 +166,65 @@ public class variaveis {
         System.out.println(valorCom0);
 
 
-        
+        // Operadores Aritméticos
+
+        int soma2 = 12 + 5;
+        System.out.println(soma2);
+        System.out.println(22 + 10);
+        System.out.println(89- 10);
+        System.out.println(10.9 / 19.8);
+        System.out.println(10 / 5.1);
+        System.out.println(77 * 10);
+        System.out.println(22 + 10);
+   
+        //Para resultado quebrado (1.5), pelo menos 1 num da divisão tem que ser double
+
+        System.out.println(10/3);
+        System.out.println(10.0/3);
+        System.out.println(10%3);
 
 
+        /**
+         * Incremento (++): incrementa o valor de uma variável em 1;
+         * 
+         * Desencremento (--): Desencrementa o valor de uma variável em 1;
+         * 
+         * Atribuição aditiva (+=): Soma e atribui o resultado a uma variável;
+         * 
+         * Atribuição subtrativa (-=): Subtrai e atribui o resultado a uma variável;
+         */
+
+        int x = 5;
+        x++; //mai 1
+        x++;
+        x++;
+        System.out.println(x); // resultado final é 8
 
 
+        int y = 10;
+        y--;
+        y--;
+        y--;
+        y--;
+        System.out.println(y); // resultado final é igual a 6
 
 
+        int t = 10;
+        t+= 10;
+        t+= 10;
+
+        System.out.println(t); // Resultado igual a 30
 
 
+        int r = 20;
+        r -= 10;
+
+        System.out.println(r); //Resultado igual a 10
+
+        // podemos realizar com variáveis 
+
+        t += r;
+        System.out.println(t); // resultado igual a 40
 
 
 
