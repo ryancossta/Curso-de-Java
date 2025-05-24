@@ -95,7 +95,7 @@ public class variaveis {
          * Ideal para operações aritméticas em loops;
          * 
          * 
-         */
+        */
 
          int n = 43;
 
@@ -116,7 +116,28 @@ public class variaveis {
 
 
 
+         //Aula sobre Long 
 
+         /**
+          * Long é um tipo de daod primitivo usado para armazenar
+           números inteiros muitos grandes.
+
+           Valores literais do tipo Long devem ser seguidos por L(maiúsculo) para indicar o tipo;
+
+           Ideial para cálculo financeiro, contagem de tempo, ou quando o tipo int não é suficiente;
+
+           O sublinhado pode ser usado para melhorar a legibilidade em números longos,
+           separando grupos de dígitos (EX: 123_456_789L)
+
+          **/
+
+          long populacaoMund = 7800000000L;
+
+          System.out.println(populacaoMund);
+
+          long grandeNumber = 100_000_000L;
+
+        System.out.println(grandeNumber + 10);
 
 
 
