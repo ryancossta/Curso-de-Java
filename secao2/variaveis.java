@@ -285,6 +285,36 @@ public class variaveis {
          System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
 
 
+         //Aula sobre Inferência de Tipo com VAR em java
+
+         /**
+          * Var: Introduzido no Java 10, permite ao compilador inferir o tipo de variável com base 
+          no valor atribuído;
+
+          Reduz a necessidade de escrever tipos longos e complexos, aumentando a legibilidade do código;
+
+          Tipo estático: Embora o tipo seja inferido, ele é fixo após a atribuição e não pode ser alterado;
+
+          Regras: Deve ser inicializado no momento da declaração, e não pode ser usado para variáveis não inicializadas;
+
+          Boas práticas: útil para tipos complexos ou quando o tipo é óbvio a partir do contexto;
+          */
+
+         var z = 10;
+
+         System.out.println(z);
+
+         // Z = "teste";
+
+           z = 5;
+
+           var texto2 = "teste";
+
+           var doubleTeste = 2.0;
+
+        System.out.println(texto2);
+
+        System.out.println(doubleTeste);
 
 
 
