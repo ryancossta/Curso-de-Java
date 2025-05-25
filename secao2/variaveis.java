@@ -266,7 +266,23 @@ public class variaveis {
         System.out.println(codigoAscii);
 
 
+        //Aula sobre Constantes em Java com final
 
+        /**
+         * Final: dEFINE UMA VARIÁVEL COMO CONSTANTE, IMPEDINDO QUE SEU VALOR SEJA ALTERADO
+         * APÓS A INICIALIZAÇÃO;
+         * 
+         * Uma vez atribuido, o valor não pode ser modificado;
+         * 
+         * Boas práticas: Usado para valores que não devem mudar durante a execusão do programa,
+         * como API ou taxas de juros;
+         * 
+         * Convenção de nomes:Constantes geralmente são nomeadas em letra maiúsculas, com palavrras
+         * separadas por sublinhados (_);
+         */
+
+         final int DIAS_DA_SEMANA = 7;
+         System.out.println("Dias da semana: " + DIAS_DA_SEMANA);
 
 
 
