@@ -44,4 +44,48 @@ public class Exercicios {
 
 
      */
+
+
+
+
+     public static void main(String[] args) {
+        //Exercício 1 
+        int v1 = 10;
+        int v2 = v1*2;
+
+        System.out.println(v2);
+
+
+
+
+        //Exercício 2
+
+        char letraE = 'B';
+        int valorE = (int) letraE;
+        System.out.println(valorE);
+
+
+
+        //Exercício 3
+        double n1 = 15.75;
+        double n2 = 20.40;
+
+        double somaDouble = n1 + n2;
+        System.out.println(somaDouble);
+
+
+        //Exercício 4
+        long numeroBi = 2_000_000_000L;
+
+        int newNumber = (int) numeroBi;
+        System.out.println(newNumber);
+
+
+        //Exercício 5 
+        String ola = "Olá Mundo!";
+        String mundo = (ola + " " + "Seja Bem vindo Java!");
+        System.out.println(mundo);
+        
+     }
 }
+

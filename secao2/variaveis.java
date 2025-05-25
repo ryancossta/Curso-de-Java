@@ -119,7 +119,7 @@ public class variaveis {
          //Aula sobre Long 
 
          /**
-          * Long é um tipo de daod primitivo usado para armazenar
+          * Long é um tipo de dado primitivo usado para armazenar
            números inteiros muitos grandes.
 
            Valores literais do tipo Long devem ser seguidos por L(maiúsculo) para indicar o tipo;
@@ -225,6 +225,92 @@ public class variaveis {
 
         t += r;
         System.out.println(t); // resultado igual a 40
+        //Aula sobre Type Casting
+
+        /**
+         * Casting implícito (Windening): Converte automaticamente tipos menores
+         * para tipos maiories (int para long), sem perder dados;
+         * 
+         * Casting explícito(narrowing): Necessário quando se converte tipos maiores 
+         * para tipos menores (double para int), podendo resultar em perda de dados;
+         * 
+         * Para realizar um casting explícito, é necessário especificar o tipo de destino
+         * entre parênteses;
+         */
+
+        //Formato implícito
+        int numero3 = 42;
+
+        long numeroLong = numero3;
+
+        double numeroDouble = numero3;
+
+        System.out.println(numeroLong);
+        System.out.println(numeroDouble);
+
+
+        //Formato explícito
+
+        double valorDouble = 9.78;
+
+        int valorInt = (int)valorDouble;
+
+        System.out.println(valorInt);
+
+
+        //Casting de char para int 
+
+        char letra2 = 'A';
+
+        int codigoAscii = (int) letra2;
+        System.out.println(codigoAscii);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
