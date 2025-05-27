@@ -40,7 +40,19 @@ public class testeScanner {
             int idade = scanner.nextInt();
             System.out.println("Olá " + nome  + " sua idade é de: " + idade + " anos");
 
+        //Importação de pacotes
 
+        /**
+         * Pacotes organizam classes e interfaces relacionadas, melhorando a estrutura do código;
+         * 
+         * Importar classes de pacotes externos, coomo Scanner, é necessário para utilizá-las;
+         * 
+         * Aimportação de pacotes previne conflitos de nomes entre classes em projetos grandes;
+         * 
+         * Permite a reutilização de código existente, acelerando o desenvolvimento;
+         * 
+         * Facilita a manutenção e leitura do código ao manter uma organização lógica;
+         */
 
 
 
