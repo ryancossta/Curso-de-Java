@@ -23,6 +23,27 @@ package secao2;
 public class variaveis {
     
     public static void main(String[] args) {
+
+
+      /* REGRAS PARA VARIÁVEIS 
+ * 
+ * A sintaxe para declarar variável é: TIPO DE DADO nome = VALOR;
+ * 
+ * O formato de nomes é lowerCamelCase, ou seja: nomeCompleto.
+ * 
+ * Os tipos de dados variam conforme a necessidade da variável no programa.
+ * 
+ * Cada tipo de dado ocupa um tamanho na memória. Devemos sempre otimizar isso.
+ * 
+ * O nome precisa ser único, não pode começar com números;
+ * 
+ * Regra de otimização:Escolher sempre a que ocupa menos memória;
+ * 
+ * O sinal de igual é chamdo de atribuição;
+ * 
+ */
+
+
         // 1 - O que são variáveis
         //Tipo -> nome -> Atribuir um valor 
 
@@ -315,6 +336,8 @@ public class variaveis {
         System.out.println(texto2);
 
         System.out.println(doubleTeste);
+
+
 
 
 
