@@ -55,8 +55,31 @@ public class testeScanner {
          */
 
 
+         // Aula - fechamento de Scanner
+
+         //O scanner comsome rescursos de entrada, como fluxo de dados do teclado;
+         //Fchar o scanner libera esses recursos, evitando problamas de performance;
+         //Deixar o Scanner aberto pode causar vazamentos de memória ou travamentos;
+         //close() é uma prática recomendada após a leitura dos dados;
+         //O fechamento do scanner ajuda a manter a aplicação eficiente e estável;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+            //Fechamneto de scanner para evitar memory leak
+         scanner.close(); //Sempre posicionado após término do código
 
 
 
