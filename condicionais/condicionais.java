@@ -28,6 +28,35 @@ public class condicionais {
 
         //Operadores de comparação
 
+        /**
+         * == (igaul a): verifica se dois valores são iguais;
+         * 
+         * != (Diferente de): verifica se dois valores são diferentes;
+         * 
+         * > (Maior que): Verifica se o valor a esquerda é maior que o valor á direita;
+         * 
+         * <(Menor que): Verifica se o valor a esquerda é menor que o valor a direita;
+         * 
+         * >=(Maior ou igual a): Verifica se o valor a esquerda é maior ou igual ao valor a direita;
+         * 
+         * <=(Menor ou igual a): verifica se o valor a esquerda é menor ou igual o valor a direita;
+         */
+        int n1 = 10;
+
+        System.out.println(n1 == 10); //Retorna true
+        System.out.println(n1 == 9); //Retorna false
+        System.out.println(n1 != 8); //Retorna true
+        System.out.println(n1 != 10 ); //Retorna false
+        System.out.println(n1 > 11); //Retorna false
+        System.out.println(n1 < 11); //Retorna true
+        System.out.println(n1 < 9); //Retorna False
+        System.out.println(n1 >= 10); //Retorna true(é igual a 10)
+        System.out.println(n1 >= 11); //Retorna false(é maior que 10)
+        System.out.println(n1 <= 12); //Retorna true(é menor que 12)
+        System.out.println(n1 <= 7); //Retorna false(10 é maior que 7)
+       
+
+
 
 
 
