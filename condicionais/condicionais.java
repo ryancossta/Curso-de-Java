@@ -56,7 +56,19 @@ public class condicionais {
         System.out.println(n1 <= 7); //Retorna false(10 é maior que 7)
        
 
-
+        //Diferença entre comparação e atribuição
+        /**
+         * ATRIBUIÇÃO (==)
+         *    - Atribui um valor a uma variável;
+         *    - Usado para definir ou alterar o valor armazenado em uma variável;
+         *    - Exemplo;  int a = 5;
+         * 
+         * COMPARAÇÃO
+         *    - Compara dois valores para verificar se são iguais;
+         *    - Retorna true se os valores forem iguais e false se forem difernetes;
+         *    - Exemplo: 5 == 5 retorna true;
+         *
+         */
 
 
 
