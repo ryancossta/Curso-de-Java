@@ -246,6 +246,9 @@ public class variaveis {
 
         t += r;
         System.out.println(t); // resultado igual a 40
+
+
+        
         //Aula sobre Type Casting
 
         /**

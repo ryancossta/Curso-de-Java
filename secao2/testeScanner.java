@@ -63,20 +63,40 @@ public class testeScanner {
          //close() é uma prática recomendada após a leitura dos dados;
          //O fechamento do scanner ajuda a manter a aplicação eficiente e estável;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
          
+         //Problema do nextLine
+
+         /**
+          * nesxtLine() lê a linha inteira até encontrar um Enter;
+          Problema ocorre ao uar nextLine() após nexInt(), etc;
+          nextline() captura o caractere Enter remanescente, resultando em uma leitura vazia;
+          Isso faz o programa parecer "pular" a entrada de texto;
+          
+          SOLUÇÃO: ADICIONAR UM nextLine() EXTRA APÓS A LEITURA DE NÚMEROS;
+
+          */
+
+          System.out.println("Digite um número");
+
+          int n = scanner.nextInt();
+
+          scanner.nextLine();
+
+          System.out.println("Digite um texto");
+
+          String txt = scanner.nextLine();
+
+          System.out.println("Os dados são, n = " + n + " e txt = " + txt);
+
+
+
+
+
+
+
+
+
+
 
             //Fechamneto de scanner para evitar memory leak
          scanner.close(); //Sempre posicionado após término do código
