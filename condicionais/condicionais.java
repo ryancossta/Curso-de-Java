@@ -1,5 +1,7 @@
 package condicionais;
 
+
+
 public class condicionais {
     public static void main(String[] args) {
         //O queé boolean??
@@ -57,22 +59,65 @@ public class condicionais {
        
 
         //Diferença entre comparação e atribuição
+
         /**
-         * ATRIBUIÇÃO (==)
+         * ATRIBUIÇÃO (=)
          *    - Atribui um valor a uma variável;
          *    - Usado para definir ou alterar o valor armazenado em uma variável;
          *    - Exemplo;  int a = 5;
          * 
-         * COMPARAÇÃO
+         * COMPARAÇÃO(==)
          *    - Compara dois valores para verificar se são iguais;
          *    - Retorna true se os valores forem iguais e false se forem difernetes;
          *    - Exemplo: 5 == 5 retorna true;
          *
          */
+        
+        int n = 5;
+        int m = 10;
 
+        //System.out.println(n = 12); //Muda o valor para 12
 
+        System.out.println(n == 12); //Retorna false
 
+        System.out.println(n == m); //Os valores diferem um ao outro
 
+        
+        //Comparação de Strings
+
+        /** PROBLEMA COM ==:
+         * 
+         * O operador == compara as referências de memória, não o conteúdo das strings;
+         * Pode retornar false mesmo que o conteúdo das strings seja igual, se as referências
+         * forem diferentes;
+         * 
+         * USO DO MÉTODO equals():
+         * 
+         * equals() compara o conteúdo das strings, caractere por caractere;
+         * É a maneira correta e segura de verificar se duas strings são iguais em valor;
+         * 
+         * equalslgnoreCase():
+         * 
+         * Variante de equals() que ignora diferenças entre maiúsculas e minúsculas;
+         */
+
+        String str1 = "Java";
+        String str2 = new String("Java");
+
+        System.out.println(str1);
+        System.out.println(str2);
+
+        System.out.println(str1 == str2); //Retorna FALSE
+
+        System.out.println(str1 == "Java"); //Retorna true
+
+        System.out.println(str1.equals(str2)); //MÉTODO CORRETO DE COMPARAÇÃO DE STRINGS (RETORNA TRUE)
+
+        String str3 = "JAVA";
+        System.out.println(str1.equals(str3));
+
+        //Java == JAVA (false) > java == java
+        System.out.println(str1.equalsIgnoreCase(str3));
 
 
 
