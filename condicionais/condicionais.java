@@ -121,7 +121,23 @@ public class condicionais {
 
 
 
+        // Aula sobre - Estruturas de condições
 
+        /**
+         * if: Executa um bloco de código se a condição for verdaeira;
+         * 
+         * else: Executa um bloco de código alternativo se a condição do if for falsa;
+         * 
+         * else if: Verifica outra condição se as condições anteriores forem falsas.
+         * 
+         * switch: Seleciona e executa um bloco de código entre várias opções com base no valor
+         * de uma expressão;
+         * 
+         * Importante lemnrar que: TODAS ESSAS ESTRUTURAS PERMITEM CONTROLAR O FLUXO DE EXECUSÃO COM
+         * BASE EM CONDIÇOES LÓGICAS;
+         */
+
+         
 
 
 
