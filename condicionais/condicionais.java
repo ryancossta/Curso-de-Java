@@ -189,8 +189,41 @@ public class condicionais {
             System.out.println("O ttexto não é igual");
           }
 
+          //Utilizando o else if
 
+          /**
+           * else if: permite testar condições adicionais após um if;
+           * 
+           * Sintaxe: Coloque a condição entre parênteses após a palavra-chave else if;
+           * 
+           * Uso comum: Quando há várias condições mutuamente exclusivas;
+           * 
+           * Encadeamento: Vários blocos else if podem ser usados apos um if;
+           * 
+           * Bloco final opcional: Pode ser seguido de um else para lidar com qualquer caso não coberto;
+           * 
+           */
 
+            double nota = 7;
+            if (nota ==10) {
+               System.out.println("Você tirou nota máxima, parabéns");
+            }else if(nota >= 8){
+               System.out.println("Sua nota é boa!");
+            } else if(nota >= 7){
+               System.out.println("Nota acima da média");
+            } else {
+               System.out.println("Abaixo da média");
+            }
+
+            int num = 5;
+
+            if (num >3 && num < 5) { //ADICIONEI O &&
+               System.out.println("Alguma coisa");
+            } else if(num == 5){
+               System.out.println("Outra coisa aqui!");
+            }
+            // 1 - Vou escolher qual a situação que eu quero que mais ocorra;
+            // 2 - Melhrar a lógica, deixo a comparação mais específica
 
 
 
