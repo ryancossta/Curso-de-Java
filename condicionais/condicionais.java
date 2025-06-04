@@ -226,6 +226,19 @@ public class condicionais {
             // 2 - Melhrar a lógica, deixo a comparação mais específica
 
 
+            // Aula sobre - OPERADORES LÓGICOS 
+
+            /**
+             * && (E lógico): Retorna true se amn=bas as condições forem verdadeiras;
+             * 
+             * || (OU lógico): Retorna true se pelo menos uma das condições for verdadeiras;
+             * 
+             * ! (NÃO lógico): Inverte o valor lógico; retorna true se a condição dor falsa e vice-versa;
+             * 
+             * Combinação: Pode combinar múltiplas condições em uma única expressão lógica;
+             */
+
+             
 
 
 
