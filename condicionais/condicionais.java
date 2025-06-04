@@ -172,8 +172,22 @@ public class condicionais {
          //Declaração do if (comparação ou retorno de booleano) {o que será executado}
 
 
+         //Explorando o else
 
-
+         int x = 207;
+         if (x > 10) {
+            System.out.println( x + "é maior que 10");
+         } else{
+            System.out.println(x +" não é maior que 10");
+         }
+         // Todo else precisa de um if, mas nem todo if precisa de um else
+          
+         //else com comparação de String
+         if (text.equals("Teste2")) {
+            System.out.println("O txto é: Teste");
+          }else{
+            System.out.println("O ttexto não é igual");
+          }
 
 
 
