@@ -137,9 +137,39 @@ public class condicionais {
          * BASE EM CONDIÇOES LÓGICAS;
          */
 
-         
 
 
+         //  IF
+
+         /**
+          * if executa um bloco de código se a condição for verdadeira;
+
+          Coloque a condição entre parênteses após a palavra-chave if;
+
+          Uso comum: Compsrações lógicas ou aritméticas para tomar decisões no código;
+
+          O BLOCO DE CÓDIGO DENTRO DE IF É DELIMITADO POR CHAVES[];
+          */
+
+
+         int number = 59;
+
+            //Baseado em uma comparação, eu executo algo
+         if (number > 5) {
+            System.out.println("O número é maior que 5");
+         } 
+
+         // IF COM STRINGS
+
+         String text = "Teste";
+
+         if(text.equals("Teste")){
+
+            //Se a função retorna booleano, eu posso usar o if
+            System.out.println("O texto é: Teste");
+         }
+
+         //Declaração do if (comparação ou retorno de booleano) {o que será executado}
 
 
 
