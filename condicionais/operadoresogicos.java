@@ -57,8 +57,26 @@ public class operadoresogicos {
                  * 
                  */
 
+                 boolean estaChovendo = true;
+                 boolean temQuardaChuva = true;
 
+                 System.out.println(estaChovendo || temQuardaChuva);
+                    //só ira retornar false se os dois lados forem false
+                 System.out.println(false || false);
 
+                 System.out.println(10 > 20 || 100 == 200); //reotna false
+
+                 int idade2 = 16;
+                 boolean membro = true;
+
+                 // O usuário pode participar d clube
+                 // Ele precisa ter > 16 anos OU ser membro
+
+                 if (idade2 > 16 || membro) {
+                    System.out.println("Você pode entrar");
+                 }else{
+                    System.out.println("Entrada negada!");
+                 }
 
 
 
