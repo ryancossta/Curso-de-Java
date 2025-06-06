@@ -80,8 +80,28 @@ public class operadoresogicos {
 
 
 
+                 //Operador NOT
+
+                 /**
+                  * O operador ! (NOT), inverte o valor lógico de uma expressão;
+
+                  Sintaxe: ! seguido da condição ou expressão;
+
+                  Uso comum: Negar um condição para tomar decisões baseadas no aposto;
+
+                  Útil em validações: Verificar se uma comdição é falsa, ao invés de verdadeira;
+
+                  Combinação: Podee ser combinado com outros operadores lógicos (&&, ||), para criar
+                  expressões mais complexas;
+                  */
 
 
+                  System.out.println(estaChovendo); //retorna false
+                  System.out.println(!estaChovendo);// retorna true
+
+                  System.out.println(estaChovendo || !temQuardaChuva);//retorna false
+
+                  System.out.println(!(estaChovendo || !temQuardaChuva));//retorna false
 
 
 
